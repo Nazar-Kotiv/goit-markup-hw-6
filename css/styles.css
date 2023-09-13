@@ -138,7 +138,7 @@ img{
     gap: 40px;
     flex-shrink: 0;
 }
-@media (max-width: 768px)
+@media (max-width: 767px)
 {
     .navigation-menu{
         display: none;
@@ -237,7 +237,7 @@ img{
     margin-left: auto;
 }
 
-@media(max-width:768px)
+@media(max-width:767px)
 {
     .address{
         display: none;
