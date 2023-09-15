@@ -25,7 +25,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
+<link rel="stylesheet" href="./css/">
     <link rel="stylesheet" href="./css/styles.css" />
 
     <title>Homework#6</title>
@@ -37,11 +37,6 @@
           <a href="./index.html" class="logotipe"
             >Web<span class="accent">Studio</span></a
           >
-          <button class="button-menu-burger" type="submit">
-            <svg class="icon-burger-menu" width="24" hight="24">
-            <use href="./images/icons.svg#icon-solid_menu"></use>
-          </svg>
-          </button>
     
           <ul class="navigation-menu">
             <li class="site-nav-menu-list">
@@ -55,6 +50,11 @@
             </li>
           </ul>
         </nav>
+        <button class="button-menu-burger" type="submit">
+            <svg class="icon-burger-menu" width="24" hight="24">
+            <use href="./images/icons.svg#icon-solid_menu"></use>
+          </svg>
+          </button>
 
         <address class="address">
           <ul class="container-address">
@@ -75,7 +75,7 @@
 
     <main>
       <!-- SECTION HERO -->
-      <section class="section-hero">
+       <section class="section-hero">
         <div class="container">
           <h1 class="page-title">Effective Solutions For Your Business</h1>
           <button type="button" class="button-order-service">
@@ -84,7 +84,7 @@
         </div>
       </section> 
       <!-- Section Text -->
-       <section class="section-text">
+        <section class="section-text">
         <div class="container">
           <h2 class="visually-hidden">WOW</h2>
 
@@ -146,15 +146,15 @@
 
       <!-- SECTION OUR TEAM -->
 
-      <section class="section-our-team">
+       <section class="section-our-team">
         <div class="container">
           <h2 class="title">Our Team</h2>
 
           <ul class="our-team-list">
             <li class="section-our-team-list">
               <img
-               srcset="./images/mark-guerrero1x.jpg, ./images/mark-guerrero@2x 2x.jpg"
-                src="./images/mark-guerrero1x.jpg"
+               srcset="./images/mark-guerrero@2x.jpg 2x"
+                src="./images/mark-guerrero.jpg"
                 alt="Mark Guerro"
                 width="264"
                 height="260"
@@ -197,8 +197,8 @@
 
             <li class="section-our-team-list">
               <img
-              srcset="./images/tom-ford1x.jpg, ./images/tom-ford@2x 2x.ipg"
-                src="./images/tom-ford1x.jpg"
+              srcset="./images/tom-ford@2x.jpg 2x"
+                src="./images/tom-ford.jpg"
                 alt="Tom Ford"
                 width="264"
                 height="260"
@@ -243,8 +243,8 @@
 
             <li class="section-our-team-list">
               <img
-              srcset="./images/camila-carcia1x.jpg, ./images/camila-carcia@2x 2x.jpg"
-                src="./images/camila-carcia1x.jpg"
+              srcset="./images/camila-carcia@2x.jpg 2x"
+                src="./images/camila-carcia.jpg"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -286,8 +286,8 @@
             </li>
             <li class="section-our-team-list">
               <img
-              srcset="./images/daniel-wilson1x.jpg, ./images/daniel-wilson@2x 2x.jpg"
-                src="./images/daniel-wilson1x.jpg"
+              srcset="./images/daniel-wilson@2x.jpg 2x"
+                src="./images/daniel-wilson.jpg"
                 alt="Danie lWilson"
                 width="264"
                 height="260"
@@ -332,7 +332,7 @@
       </section> 
 
       <!-- SECTION PORTFOLIO -->
-      <section class="section-portfolio">
+      <!-- <section class="section-portfolio">
         <div class="container">
           <h2 class="section-portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -454,7 +454,7 @@
           </ul>
         </div>
       </section>
-    </main> 
+    </main>  -->
 
     <!-- <footer class="footer-page">
       <div class="container footer-wrapper">
@@ -524,7 +524,7 @@
     </footer> -->
 
     <!-- ===================BACKDROP==================== -->
-    <!-- <div class="backdrop is-open">
+     <div class="backdrop">
       <div class="callback-wrapper">
         <button type="button" class="model-close">
           <svg class="icon-close" width="8" height="8">
@@ -613,7 +613,7 @@
           <button class="form-button" type="submit">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
 
     <!-- ========================MENU=========================== -->
     <div class="model-menu">
@@ -622,53 +622,58 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
 </button>
-<ul class="list-model-menu">
-  <li class="model-list-iteam accent">Studio</li>
-  <li class="model-list-iteam">Portfolio</li>
-  <li class="model-list-iteam">Contacts</li>
-</ul>
+
+<nav class="nav-model-menu">
+  <ul class="list-model-menu">
+    <li class="model-menu-list-iteam"><a class="model-menu-link color-studio" href="">Studio</li>
+    <li class="model-menu-list-iteam"><a class="model-menu-link" href="">Portfolio</li>
+    <li class="model-menu-list-iteam"><a class="model-menu-link" href="">Contacts</li>
+  </ul>
+</nav>
 <adress class="model-adress">
   <ul class="model-container-address">
-            <li class="adress-model-mail">
-              <a class="adress-model-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="adress-model-tel">
-              <a class="adress-model-link" href="tel:+110001111111"
+     <li class="adress-model-link">
+              <a class="adress-model-link-tel" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
+            <li class="adress-model-link">
+              <a class="adress-model-link-email" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+           </adress>
           </ul>
           <ul class="model-social-link">
             <li class="svg-list-model-menu">
                     <a href="" class="social-link-model-menu">
-                      <svg class="icon-model-menu" width="16" height="16">
+                      <svg class="icon-model-menu" width="24" height="24">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="svg-list-model-menu">
                     <a href="" class="social-link-model-menu">
-                      <svg class="icon-model-menu" width="16" height="16">
+                      <svg class="icon-model-menu" width="24" height="24">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="svg-list-model-menu">
                     <a href="" class="social-link-model-menu">
-                      <svg class="icon-model-menu" width="16" height="16">
+                      <svg class="icon-model-menu" width="24" height="24">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="svg-list-model-menu">
                     <a href="" class="social-link-model-menu">
-                      <svg class="icon-model-menu" width="16" height="16">
+                      <svg class="icon-model-menu" width="24" height="24">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
+                    </a>
           </ul>
-</adress>
+  
     </div>
   </body>
 </html>
