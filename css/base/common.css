@@ -1,0 +1,36 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #FFF;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+}
