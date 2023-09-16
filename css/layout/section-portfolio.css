@@ -105,6 +105,7 @@
         width: calc((100% - 72px) / 2);
         flex-wrap: wrap;
         display: flex;
+        justify-content: center;
 
     }
 }

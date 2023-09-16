@@ -89,7 +89,8 @@
     .our-team-list {
         flex-wrap: wrap;
         flex-direction: row;
-        gap: 24px;
+        column-gap: 24px;
+        row-gap: 64p;
         display: flex;
         justify-content: center;
     }

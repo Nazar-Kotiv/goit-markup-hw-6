@@ -260,6 +260,7 @@
 {
     .checkbox-policy{
         display: flex;
+        align-items: center;
     }
 }
 .checkbox-policy {
