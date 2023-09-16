@@ -168,7 +168,7 @@
     content: "";
     width: 48px;
     height: 4px;
-    bottom: -1px;
+    bottom: 0px;
     left: 0;
     border-radius: 2px;
     background: var(--ocean, #404BBF);

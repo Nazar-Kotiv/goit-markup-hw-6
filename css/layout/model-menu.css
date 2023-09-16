@@ -52,7 +52,10 @@
 .nav-model-menu {
     margin-top: 72px;
 }
-
+.list-model-menu{
+    width: 150px;
+    height: 200px;
+}
 .model-menu-list-iteam {
     display: flex;
     flex-direction: column;
@@ -99,7 +102,8 @@
 .model-social-link {
     display: flex;
     gap: 40px;
-    margin-top: 40px;
+    margin-top: 48px;
+
 }
 
 .social-link-model-menu {

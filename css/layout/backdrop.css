@@ -241,7 +241,12 @@
     margin-right: 8px;
     stroke: #FFF;
 }
-
+.checkbox-text
+{
+    display: inline-flex;
+    width: 230px;
+    height: 31px;
+}
 .checkbox-input:checked+.checkbox-policy>.checkbox-icon {
     background-color: #404bbf;
     border: none;
@@ -251,7 +256,12 @@
 .checkbox-input:focus+.checkbox-policy>.checkbox-icon {
     border-color: #404bbf;
 }
-
+@media(max-width:767px)
+{
+    .checkbox-policy{
+        display: flex;
+    }
+}
 .checkbox-policy {
     color: #8e8f99;
     font-size: 12px;
