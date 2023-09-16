@@ -33,7 +33,9 @@
 
 @media(min-width:1158px) {
     .section-hero {
-        max-width: 1158px;
+        max-width: 1440px;
+        padding-top: 188px;
+        padding-bottom: 188px;
         background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/Backround/Dark-bg-desctop.jpg");
     }
 }

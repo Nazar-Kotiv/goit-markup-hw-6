@@ -11,12 +11,15 @@
 @media (min-width:320px) and (max-width:768px) {
     .container-header {
         max-width: 768px;
+        height: 72px;
+        padding: 0 15px;
     }
 }
 
 @media (min-width:1158px) {
     .container-header {
         max-width: 1158px;
+        height: 72px;
     }
 }
 
@@ -168,7 +171,7 @@
     content: "";
     width: 48px;
     height: 4px;
-    bottom: 0px;
+    bottom: -1px;
     left: 0;
     border-radius: 2px;
     background: var(--ocean, #404BBF);
